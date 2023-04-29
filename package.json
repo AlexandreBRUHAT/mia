@@ -1,0 +1,18 @@
+{
+  "name": "whatabot",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node --loader ts-node/esm src/index.js"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "mineflayer": "^4.8.1",
+    "prismarine-viewer": "^1.25.0",
+    "ts-node": "^10.9.1"
+  }
+}
